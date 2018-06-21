@@ -1,7 +1,7 @@
-class StudentsController < ApplicationController::Base
+class StudentsController < ApplicationController
 
-  get "/student" do
-
+  def index
+    @student = Student.all
   end
 
 end
