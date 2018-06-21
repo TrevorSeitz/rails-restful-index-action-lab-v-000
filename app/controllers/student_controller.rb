@@ -1,7 +1,7 @@
-class StudentController < ApplicationController::Base
+class StudentsController < ApplicationController::Base
 
   get "/student" do
-    
+
   end
 
 end
